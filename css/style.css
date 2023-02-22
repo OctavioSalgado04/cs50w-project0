@@ -2,7 +2,15 @@
     background-color: crimson;
 
 }
-.video1{
-    height: 100px;
-    width: 70px;
+.rickrol{
+    background-image: url(/multimedia/raining-money-8.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.anuncio{
+    background-color: yellow;
+}
+.prueba{
+    background-color: black;
+    border: 2px outset #7c7c7c;
 }
