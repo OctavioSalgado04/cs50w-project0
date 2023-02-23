@@ -11,6 +11,10 @@
     background-color: yellow;
 }
 .prueba{
-    background-color: black;
+    background-color: orange;
+    border: 2px outset #7c7c7c;
+}
+.prueba2{
+    background-color: blueviolet;
     border: 2px outset #7c7c7c;
 }
