@@ -1,5 +1,7 @@
 .inicio{
     background-color: crimson;
+    display:flex;
+    
 
 }
 .rickrol{
@@ -13,8 +15,14 @@
 .prueba{
     background-color: orange;
     border: 2px outset #7c7c7c;
+    
 }
 .prueba2{
     background-color: blueviolet;
     border: 2px outset #7c7c7c;
+    padding: 10px;
+}
+.prueba0{
+    padding: ;
+   
 }
