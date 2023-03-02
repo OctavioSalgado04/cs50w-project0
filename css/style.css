@@ -3,6 +3,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.dos{
+    background-image:url(/multimedia/R.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .inicio{
     background-color: crimson;
     display:flex;
@@ -19,16 +25,24 @@
     background-size: cover;
 }
 .anuncio{
+    margin-top: 10px;
     border: 3px outset black;
-    background-color: yellow;
+    background-color: white;
     min-height:50px;
     display: flex;
-    align-items: flex-start;
+    
 }
 .anuncio a{
     margin-top: 20px;
     margin-left: 650px;
     margin-block-end: 20px;
+}
+.anuncio2{
+    margin-top: 5px;
+    background-color: white;
+    min-height:50px;
+    display: flex;
+
 }
 .prueba{
     background-image: url(/multimedia/fortnite2.jpg);
@@ -54,4 +68,32 @@
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
     color: rgb(151, 134, 134);
 }
-
+.master{
+    background-color: #7c7c7c;
+    color:white;
+    margin-top: 5px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-align: center;
+    padding: 20px;
+    
+}
+.son{
+    display: block;
+    position: relative;
+    left: 35%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.padre{
+    margin-top: 2px;
+    background-color: white;
+}
+.hijo{
+    width: 20%;
+}
+.hijo2{
+    width: 10%;
+}
+.anuncios{
+    margin-left: 20%;
+}
