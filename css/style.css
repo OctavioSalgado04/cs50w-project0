@@ -1,3 +1,6 @@
+p{
+    font-size: 1.4rem;    
+}
 .uno{
     background-image:url(/multimedia/azul.gif);
     background-repeat: no-repeat;
@@ -96,4 +99,27 @@
 }
 .anuncios{
     margin-left: 20%;
+}
+.inicio_guns{
+    display: flex;
+    position: relative;
+    left: 15%;
+    right: auto;
+    padding: 10px;
+    text-align: left;
+}
+.inicio_guns2{
+    display: flex;
+    position: relative;
+    left: 5%;
+    right: auto;
+    padding: 10px;
+    text-align: left;
+}
+.xd{
+    text-align: center;
+}
+
+@media {
+ 
 }
