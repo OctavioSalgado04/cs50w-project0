@@ -41,6 +41,8 @@ p{
     margin-block-end: 20px;
 }
 .anuncio2{
+    margin-right: 2px;
+    margin-left: 2px;
     margin-top: 5px;
     background-color: white;
     min-height:50px;
@@ -74,6 +76,8 @@ p{
 .master{
     background-color: #7c7c7c;
     color:white;
+    margin-left: 3px;
+    margin-right: 3px;
     margin-top: 5px;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
     text-align: center;
@@ -90,6 +94,18 @@ p{
 .padre{
     margin-top: 2px;
     background-color: white;
+    display:flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5PX;
+}
+.padre2{
+    margin-top: 2px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 .hijo{
     width: 20%;
@@ -98,6 +114,12 @@ p{
     width: 10%;
 }
 .anuncios{
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+.anuncios_{
+    margin-top: 100%;
     display: flex;
     position: relative;
     left: 10%;
