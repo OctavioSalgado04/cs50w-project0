@@ -2,12 +2,12 @@ p{
     font-size: 1.4rem;    
 }
 .uno{
-    background-image:url(multimedia/azul.gif);
+    background-image:url(/multimedia/azul.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .dos{
-    background-image:url(multimedia/R.gif);
+    background-image:url(/multimedia/R.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,7 +23,7 @@ p{
 
 }
 .rickrol{
-    background-image: url(multimedia/raining-money-8.gif);
+    background-image: url(/multimedia/raining-money-8.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -48,7 +48,7 @@ p{
 
 }
 .prueba{
-    background-image: url(multimedia/fortnite2.jpg);
+    background-image: url(/multimedia/fortnite2.jpg);
     border: 2px outset #7c7c7c;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +57,7 @@ p{
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 .prueba2{
-    background-image: url(multimedia/OIP.jfif);
+    background-image: url(/multimedia/OIP.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px outset #7c7c7c;
@@ -66,7 +66,7 @@ p{
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 .prueba0{
-    background-image:url(multimedia/emo.gif);
+    background-image:url(/multimedia/emo.gif);
     padding: 10px;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
     color: rgb(151, 134, 134);
@@ -98,7 +98,9 @@ p{
     width: 10%;
 }
 .anuncios{
-    margin-left: 20%;
+    display: flex;
+    position: relative;
+    left: 10%;
 }
 .inicio_guns{
     display: flex;
