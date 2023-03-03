@@ -1,0 +1,124 @@
+p{
+    font-size: 1.4rem;    
+}
+.uno{
+    background-image:url(/multimedia/azul.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dos{
+    background-image:url(/multimedia/R.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio{
+    background-color: crimson;
+    display:flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5PX;
+    
+
+}
+.rickrol{
+    background-image: url(/multimedia/raining-money-8.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.anuncio{
+    margin-top: 10px;
+    border: 3px outset black;
+    background-color: white;
+    min-height:50px;
+    display: flex;
+    
+}
+.anuncio a{
+    margin-top: 20px;
+    margin-left: 650px;
+    margin-block-end: 20px;
+}
+.anuncio2{
+    margin-top: 5px;
+    background-color: white;
+    min-height:50px;
+    display: flex;
+
+}
+.prueba{
+    background-image: url(/multimedia/fortnite2.jpg);
+    border: 2px outset #7c7c7c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color : white;
+    padding: 10px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+.prueba2{
+    background-image: url(/multimedia/OIP.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px outset #7c7c7c;
+    color: white;
+    padding: 10px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+.prueba0{
+    background-image:url(/multimedia/emo.gif);
+    padding: 10px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    color: rgb(151, 134, 134);
+}
+.master{
+    background-color: #7c7c7c;
+    color:white;
+    margin-top: 5px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-align: center;
+    padding: 20px;
+    
+}
+.son{
+    display: block;
+    position: relative;
+    left: 35%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.padre{
+    margin-top: 2px;
+    background-color: white;
+}
+.hijo{
+    width: 20%;
+}
+.hijo2{
+    width: 10%;
+}
+.anuncios{
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+.inicio_guns{
+    display: flex;
+    position: relative;
+    left: 15%;
+    right: auto;
+    padding: 10px;
+    text-align: left;
+}
+.inicio_guns2{
+    display: flex;
+    position: relative;
+    left: 5%;
+    right: auto;
+    padding: 10px;
+    text-align: left;
+}
+.xd{
+    text-align: center;
+}
+
