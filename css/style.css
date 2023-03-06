@@ -35,13 +35,8 @@ p {
   background-color: white;
   min-height: 50px;
   display: flex;
-}
-
-.anuncio a {
-  margin-top: 20px;
-  margin-left: 650px;
-  -webkit-margin-after: 20px;
-          margin-block-end: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .anuncio2 {
@@ -51,6 +46,10 @@ p {
   background-color: white;
   min-height: 50px;
   display: flex;
+}
+
+.anuncio2 a {
+  margin-top: 5px;
 }
 
 .prueba {
@@ -75,6 +74,8 @@ p {
 
 .prueba0 {
   background-image: url(../multimedia/emo.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 10px;
   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
   color: rgb(151, 134, 134);
@@ -91,22 +92,14 @@ p {
   padding: 20px;
 }
 
-.son {
-  display: block;
-  position: relative;
-  left: 35%;
-  margin-top: 2px;
-  margin-bottom: 2px;
-}
-
 .padre {
   margin-top: 2px;
   background-color: white;
-  display: flex;
   margin-top: 5px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 5PX;
+  padding: 10px;
 }
 
 .padre2 {
@@ -117,7 +110,7 @@ p {
 }
 
 .hijo {
-  width: 20%;
+  text-align: left;
 }
 
 .hijo2 {
@@ -137,24 +130,18 @@ p {
   left: 10%;
 }
 
-.inicio_guns {
-  display: flex;
-  position: relative;
-  left: 15%;
-  right: auto;
-  padding: 10px;
-  text-align: left;
-}
-
-.inicio_guns2 {
-  display: flex;
-  position: relative;
-  left: 5%;
-  right: auto;
-  padding: 10px;
-  text-align: left;
-}
-
 .xd {
   text-align: center;
+}
+
+.centrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centrado img {
+  height: 150px;
+  width: 350px;
+  margin-bottom: 5px;
 }/*# sourceMappingURL=style.css.map */
