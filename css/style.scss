@@ -1,143 +1,210 @@
-p{
-    font-size: 1.4rem;    
+$dis: flex;
+$border:2px outset #7c7c7c;
+$letras: 2px 0 0 #000,
+-2px 0 0 #000,
+0 2px 0 #000,
+0 -2px 0 #000,
+1px 1px #000,
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000;
+%letras {
+    padding: 10px;
+    text-shadow: $letras;
+    color: white;
 }
-.uno{
-    background-image:url(../multimedia/azul.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+p {
+    font-size: 1.4rem;
 }
-.dos{
-    background-image:url(../multimedia/R.gif);
+
+.uno {
+    background-image: url(../multimedia/azul.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.inicio{
+.dos {
+    background-image: url(../multimedia/R.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio {
     background-color: crimson;
-    display:flex;
+    display: $dis;
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5PX;
-    
-
 }
-.rickrol{
+
+.rickrol {
     background-image: url(../multimedia/raining-money-8.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    p {
+        display: none;
+    }
 }
-.anuncio{
+
+.anuncio {
     margin-top: 10px;
     border: 3px outset black;
     background-color: white;
-    min-height:50px;
-    display: flex;
+    min-height: 50px;
+    display: $dis;
     align-items: center;
     justify-content: center;
 }
 
-.anuncio2{
+.anuncio2 {
     margin-right: 2px;
     margin-left: 2px;
     margin-top: 5px;
     background-color: white;
-    min-height:50px;
-    display: flex;
-
+    min-height: 50px;
+    display: $dis;
 }
-.anuncio2 a{
+
+.anuncio2 {
+    a {
         margin-top: 5px;
-
+    }
 }
-.prueba{
+
+.prueba {
     background-image: url(../multimedia/fortnite2.jpg);
-    border: 2px outset #7c7c7c;
+    border: $border;
     background-repeat: no-repeat;
     background-size: cover;
-    color : white;
-    padding: 10px;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-
+    h2 {
+        @extend %letras;
+    }
+    a {
+        text-shadow: $letras;
+    }
 }
-.prueba2{
+
+.prueba2 {
     background-image: url(../multimedia/OIP.jfif);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px outset #7c7c7c;
-    color: white;
-    padding: 10px;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    border: $border;
+    h2 {
+        @extend %letras;
+    }
+    a {
+        text-shadow: $letras;
+    }
 }
-.prueba0{
-    background-image:url(../multimedia/emo.gif);
+
+.prueba0 {
+    background-image: url(../multimedia/emo.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10px;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-    color: rgb(151, 134, 134);
-    
+    border: $border;
+    h2 {
+        @extend %letras;
+    }
+    a {
+        text-shadow: $letras;
+    }
 }
-.master{
+
+.master {
     background-color: #7c7c7c;
-    color:white;
+    color: white;
     margin-left: 3px;
     margin-right: 3px;
     margin-top: 5px;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-shadow: $letras;
     text-align: center;
     padding: 20px;
-    
 }
 
-.padre{
+.padre {
     margin-top: 2px;
     background-color: white;
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5PX;
-    padding: 10px;
+    p {
+        padding: 10px;
+    }
 }
 
-.padre2{
+.padre2 {
     margin-top: 2px;
     background-color: white;
     margin-left: 10px;
     margin-right: 10px;
-    
 }
-.hijo{
+
+.hijo {
     text-align: left;
 }
-.hijo2{
+
+.hijo2 {
     width: 10%;
 }
-.anuncios{
-    display: flex;
-    position: relative;
-    left: 10%;
-}
-.anuncios_{
-    margin-top: 100%;
-    display: flex;
+
+.anuncios {
+    display: $dis;
     position: relative;
     left: 10%;
 }
 
-.xd{
+.anuncios_ {
+    margin-top: 100%;
+    display: $dis;
+    position: relative;
+    left: 10%;
+}
+
+.xd {
     text-align: center;
 }
-.centrado{
-    display: flex;
+
+.centrado {
+    display: $dis;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
+    img {
+        height: 150px;
+        width: 350px;
+        margin-bottom: 5px;
+    }
 }
-.centrado img{
-    height: 150px;
-    width: 350px;
-    margin-bottom: 5px;
+
+.video {
+    height: 100%;
+    width: 70%;
 }
-.noseaunquen{
+
+.noseaunquen {
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 682px) {
+    .rickrol {
+        background-image: none;
+        background-color: lightblue;
+        a {
+            display: none;
+        }
+        div {
+            display: none;
+        }
+        p {
+            text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+            color: white;
+            display: block;
+        }
+    }
+    .video {
+        display: none;
+    }
 }
