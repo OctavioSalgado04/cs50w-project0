@@ -30,11 +30,14 @@ p {
 }
 
 .rickrol {
-  background-image: url(../multimedia/raining-money-8.gif);
+  background-image: url(../multimedia/verde.gif);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .rickrol p {
+  display: none;
+}
+.rickrol .bye {
   display: none;
 }
 
@@ -167,7 +170,7 @@ p {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 682px) {
+@media only screen and (max-width: 530px) {
   .rickrol {
     background-image: none;
     background-color: lightblue;
@@ -185,5 +188,8 @@ p {
   }
   .video {
     display: none;
+  }
+  .bye {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
