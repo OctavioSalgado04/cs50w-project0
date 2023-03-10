@@ -29,6 +29,12 @@ p {
   margin-bottom: 5PX;
 }
 
+.tercera {
+  background-image: url(../multimedia/raining-money-8.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .rickrol {
   background-image: url(../multimedia/verde.gif);
   background-repeat: no-repeat;
@@ -170,7 +176,7 @@ p {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 430px) {
   .rickrol {
     background-image: none;
     background-color: lightblue;
